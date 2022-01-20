@@ -25,4 +25,8 @@
     .blogs-posts-container .post-container{
         max-width: 95%;
     }
+    .profile-container img{
+        width: 100%;
+        margin: 0;
+    }
 }
