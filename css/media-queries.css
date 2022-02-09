@@ -13,20 +13,5 @@
     .blogs-posts-container .post-container{
         max-width: 45%;
     }
-    .proyects-main-container{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr;
-    }
-    .profile-main-container .profile-container{
-        display: block;
-    }
-}
-@media (max-width: 600px) {
-    .blogs-posts-container .post-container{
-        max-width: 95%;
-    }
-    .profile-container img{
-        width: 100%;
-        margin: 0;
-    }
+
 }
