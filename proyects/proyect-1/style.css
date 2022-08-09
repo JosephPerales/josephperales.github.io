@@ -24,12 +24,16 @@ header nav .nav-rigth-section  {
     justify-content: center;
     align-items: center;
 }
+nav ul li {
+    padding: 5px;
+}
 nav .nav-rigth-section a{
     margin-right: 10px;
-    color:#000000;
+    color: rgba(0,0,0,.87);
 }
 nav .nav-rigth-section .text-item a:hover{
     text-decoration: underline;
+    
 }
 nav .nav-rigth-section .menu-icon{
     background-image: url('https://static.thenounproject.com/png/756729-200.png');
