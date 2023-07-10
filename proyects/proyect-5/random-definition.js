@@ -615,7 +615,7 @@ function renderDataRandom() {
         item.addEventListener("click", () => {
             let div = document.createElement("div")
             div.id ="resultado"
-            main.appendChild(div).innerHTML = `${item.id === "correct-option"? '<div id="good">Good!</div>': '<div id="failed!">Failed!</div>'}`
+            main.appendChild(div).innerHTML = `${item.id === "correct-option"? '<div id="good">Good!</div>': '<div id="fail">Failed!</div>'}`
             setTimeout(()=> {
                 renderDataRandom()
             }, 2000)
