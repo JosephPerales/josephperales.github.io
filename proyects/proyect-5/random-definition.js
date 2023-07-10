@@ -604,7 +604,7 @@ function renderDataRandom() {
     const data = selectDataRandom();
 
     main.innerHTML = `
-    <div id="titulo">Elige la alternativa correcta 🧐🍷</div>
+    <div id="titulo">Elige la alternativa correcta para esta definición 🧐🍷</div>
     <div class="definicion">${data.currentData.definicion}</div>
     <div class="options">
         ${data.options.map( item => `<div class="option" ${item === data.currentData.titulo? "id=correct-option": ""}>${item}</div>`).join("")}
