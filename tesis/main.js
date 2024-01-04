@@ -44,10 +44,6 @@ const DATA = {
     matico: [
         {
             title: "1",
-            url: "https://biblioteca.cenicafe.org/bitstream/10778/4320/1/cenbook-0026_07.pdf"
-        },
-        {
-            title: "2",
             url: "https://www.thefreelibrary.com/Aceite+esencial+de+piper+crassinervum+para+el+control+de+sitophilus...-a0450800820"
         }
 
